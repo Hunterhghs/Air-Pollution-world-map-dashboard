@@ -359,7 +359,6 @@ body {
 }
 
 .leaflet-container { background: var(--bg-primary) !important; }
-.leaflet-control-zoom { display: none; }
 
 /* Timeline */
 .timeline-control {
@@ -641,7 +640,7 @@ body {
 }
 
 /* Leaflet Overrides */
-.leaflet-tile-pane { filter: saturate(0.3) brightness(0.4) contrast(1.2); }
+.leaflet-tile-pane { filter: saturate(0.15) brightness(0.25) contrast(1.1); }
 
 /* Responsive */
 @media (max-width: 1400px) {
